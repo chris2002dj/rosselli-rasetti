@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: gray;
+}
+/*----- container -----*/
+.container {
+    position: relative;
+}
+
+.navbar, .header {
+    position: absolute;
+    left: 0;
+}
+
+/*----- navbar -----*/
+.navbar {
+    margin: 10px;
+    text-align: center;
+    border-right: 2px dotted gray;
+    padding-right: 10px;
+}
+
+.sotto-titolo {
+    border-top: 2px dotted gray;
+    border-bottom: 2px dotted gray;
+    padding: 5px 0;
+}
+
+.logo {
+    width: 200px;
+}
+
+.link li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.link a {
+    text-decoration: none;
+    color: gray;
+    line-height: 40px;
+}
+
+.link a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+/*----- header -----*/
+.header {
+    left: 220px;
+    text-align: center;
+    position: absolute;
+    right: 0;
+}
+
+#schema-scuola {
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 10rem;
+    padding: 10px;
+}
+
+/*----- ancora -----*/
+.ancora {
+    font-size: 30px;
+    text-transform: uppercase;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 3px 10px;
+}
+
+/*----- indice -----*/
+.indice {
+    text-align: left;
+    width: 500px;
+    background-color: #ecf0f1;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+/*----- footer -----*/
+.footer {
+    position: absolute;
+    top: 1060px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
